@@ -211,7 +211,8 @@ main {
             .billsDiv,
             .transfersDiv,
             .saveDiv {
-                width: 40px;
+                width: 2.5rem;
+                height: 2.5rem;
                 padding: 10px;
                 border-radius: 50%;
                 background: #979797;
@@ -284,7 +285,7 @@ main {
         .frequently,
         .fixed {
             display: flex;
-            gap: 50px;
+            gap: 3.125rem;
             padding: 5px;
             background: rgb(247, 245, 245);
             width: 220px;
@@ -797,9 +798,9 @@ footer{
 
 @media screen and (max-width:767px) {
     header {
+        overflow-x: hidden;
         nav {
 
-            overflow-x: hidden;
             .leftNav .navList ul {
                 display: none;
                 flex-direction: column;
@@ -832,7 +833,7 @@ footer{
                     border-radius: .625rem;
                     position: absolute;
                     top: 12vh;
-                    left: 35%;
+                    left: 38%;
                     display: none;
 
                     
@@ -844,6 +845,12 @@ footer{
                     left: 4%;
 
                 }
+
+                .nijaLogo .logoContainer{
+                    margin-right: .75rem;
+                }
+
+               
             }
         }
 
@@ -852,7 +859,7 @@ footer{
             color: #40196D;
             display: block;
             position: absolute;
-            right: .3125rem;
+            right: .9375rem;
             top: 1.25rem;
         }
 
@@ -860,7 +867,7 @@ footer{
             font-size: 1.5625rem;
             color: #40196D;
             position: absolute;
-            right: 0.3125rem;
+            right: .9375rem;
             top: 1.25rem;
             cursor: pointer;
         }
@@ -921,7 +928,13 @@ footer{
                 .billsDiv,
                 .transfersDiv,
                 .saveDiv {
-                    padding: 10px;
+                    padding: .625rem;
+                    width: 2.1875rem;
+                    height: 2.1875rem;
+
+                    .fa-credit-card{
+                        top: .3125rem;
+                    }
                 }
             }
         }
@@ -975,6 +988,7 @@ footer{
             .frequently,
             .fixed {
                 width: 100%;
+                gap: 1.25rem;
             }
 
             .content {
