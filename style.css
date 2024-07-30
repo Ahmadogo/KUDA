@@ -705,6 +705,7 @@ main {
         .bottom {
             margin-top: 5%;
             display: flex;
+            flex-wrap: wrap;
             gap: 15px;
         }
 
@@ -805,7 +806,7 @@ footer{
                 display: none;
                 flex-direction: column;
                 position: absolute;
-                top: 10vh;
+                top: 9vh;
                 background: #fff;
                 left: 0;
                 padding: 3rem 2rem;
@@ -833,7 +834,7 @@ footer{
                     border-radius: .625rem;
                     position: absolute;
                     top: 12vh;
-                    left: 38%;
+                    left: 40%;
                     display: none;
 
                     
@@ -1083,6 +1084,10 @@ footer{
 
             .content{
                 width: 100%;
+
+                table td{
+                    padding: .3125rem;
+                }
             }
         }
 
@@ -1133,6 +1138,7 @@ footer{
             .top{
                 gap: 50px;
             }
+            
         }
 
         .container15{
