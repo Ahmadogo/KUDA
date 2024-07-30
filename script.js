@@ -5,6 +5,14 @@ const join = document.querySelector (".joinBtn");
 const signIn = document.querySelector (".signIn");
 const company = document.querySelector (".company");
 const help = document.querySelector (".help");
+const turnRight = document.querySelector(".fa-caret-down");
+
+// if (window.matchMedia("(max-width:767px)").matches){
+//     turnRight.classList.add("fa-caret-right");
+// } else {
+//     turnRight.classList.remove("fa-caret-down");
+// }
+
 
 hamburger. addEventListener('click', function (){
     nav.style.display = "block";
